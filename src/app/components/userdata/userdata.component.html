@@ -1,0 +1,23 @@
+<app-navbar></app-navbar>
+<app-sidebar></app-sidebar>
+<div class="search-bar">
+    <input id="data" type="number" name="Id" placeholder="userId" > 
+    <button  (click)="getdatabyid()">Getdata</button>
+    <div class="table table-bordered" [style]="{display:tablevalue}">
+        <table  class="table-container">
+            <tr>
+              <th>ID</th>
+              <th>username</th>
+              <th>userRole</th>
+              <th>userDept</th>
+            </tr>
+            <tr *ngFor="let m of databyid">
+              <td>{{m.userId}}</td>
+              <td>{{m.username}}</td>
+              <td>{{m.userRole}}</td>
+              <td>{{m.userDept}}</td>
+            </tr>
+          </table>
+    </div>
+    <p class="note" [style]="{display:notevalue}">{{note}}</p>
+</div>

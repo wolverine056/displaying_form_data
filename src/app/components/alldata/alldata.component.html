@@ -1,0 +1,26 @@
+<app-navbar></app-navbar>
+<app-sidebar></app-sidebar>
+<div class="search-bar">
+  <div class="btn" >    
+    <button (click)="getData()">get ALL data</button>
+  </div>
+  <table  class="table-container" [style]="{display:tablevalue}">
+    <tr>
+      <th>ID</th>
+      <th>username</th>
+      <th>userRole</th>
+      <th>userDept</th>
+    </tr>
+    <tr *ngFor="let m of tabledata">
+      <td>{{m.userId}}</td>
+      <td>{{m.username}}</td>
+      <td>{{m.userRole}}</td>
+      <td>{{m.userDept}}</td>
+    </tr>
+  </table>
+  <div class="note">
+    
+    <h4 [style]="{display:paravalue}">{{note}}</h4>
+  </div>
+    
+</div>

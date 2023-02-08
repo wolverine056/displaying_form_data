@@ -1,0 +1,17 @@
+.form{
+    
+  float: right;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 85%;
+  padding:50px;
+
+}
+.form input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.form input .userId{
+    font-style:none;
+}

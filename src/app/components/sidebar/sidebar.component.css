@@ -1,0 +1,18 @@
+.w3-sidebar {
+    width: 130px;
+    position: fixed;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 20px 20px 20px 20px;
+    gap: 20px;
+    display: flex;
+  flex-direction: column;    
+  }
+  
+   .button {
+    font-size: 17px;
+    color: #2196F3;
+    display: block;
+    justify-content:center;
+    
+  }

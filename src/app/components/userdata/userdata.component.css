@@ -1,0 +1,24 @@
+.search-bar{
+    float: right;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 85%;
+  padding:50px;
+}
+.table-container {
+  padding:20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 85%;
+ 
+}
+.table{
+  margin-top: 33px;
+}
+th, td{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 22px;
+  margin-top: 33px;
+  justify-content: center;
+}
